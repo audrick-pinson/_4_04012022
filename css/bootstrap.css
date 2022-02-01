@@ -1455,8 +1455,8 @@ img {
 {
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: -webkit-inline-box;
-    width: 254px;
-    height: 254px;
+    width: 508px;
+    height: 508px;
     }
 }
 
