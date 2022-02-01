@@ -1436,8 +1436,8 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
-    height: auto
+    width: 270px;
+    height: 270px;
 }
 
 .img-rounded {
@@ -1786,6 +1786,11 @@ ol,
 ul {
     margin-top: 0;
     margin-bottom: 10px
+}
+ul#partenaires {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
 ol ol,
@@ -2326,6 +2331,12 @@ pre code {
     }
     .col-sm-5 {
         width: 41.66666667%
+    }
+    .col-sm-13 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
     }
     .col-sm-4 {
         width: 33.33333333%
@@ -4286,7 +4297,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }

@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -659,7 +659,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 72px;
 }
 
 .hero-bloc-text-sub {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 19px;
 }
 
 .tight-width-whitespace {
@@ -705,7 +705,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 32px;
     line-height: 1.4em;
 }
 
@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #8fff55!important;
 }
 
 .btn-atomic-tangerine {
@@ -1033,10 +1033,42 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .hero-bloc-text {
+    font-size: 36px;
+    }
+
+    p {
+    font-size: 11px;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .hero-bloc-text {
+    font-size: 28px;
+    }
+
+    p {
+    font-size: 11px;
+    }
+
+    p.text-center.white{
+    font-size: 15px;
+    }
+}
+
+span.partenaires {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ul#partenaires {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: disclosure-open
 }
