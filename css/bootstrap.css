@@ -1436,8 +1436,28 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    width: 270px;
-    height: 270px;
+    width: 254px;
+    height: 254px;
+}
+
+
+
+@media (max-width: 767px)
+{
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: -webkit-inline-box;
+    width: 254px;
+    height: 254px;
+    }
+}
+
+@media (max-width: 653px)
+{
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: -webkit-inline-box;
+    width: 254px;
+    height: 254px;
+    }
 }
 
 .img-rounded {
