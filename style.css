@@ -701,7 +701,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    width: 70%;
     margin: auto auto auto auto;
 }
 
@@ -777,6 +777,7 @@ h4 {
 
 .tc-white {
     color: #8fff55!important;
+    position: relative;
 }
 
 .btn-atomic-tangerine {
@@ -1062,11 +1063,13 @@ h4 {
     }
 
     p.text-center.white{
-    font-size: 15px;
+    font-size: 18px;
     }
 
     .social {
         width: 90%;
+        height: 237px;
+        font-size: 30px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -1077,11 +1080,18 @@ h4 {
     }
 
     span.partenaires {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     a.lien {
         font-size: 17px;
+    }
+    ul#partenaires {
+    display: grid;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: disclosure-open;
+    text-align: initial;
     }
 }
 
