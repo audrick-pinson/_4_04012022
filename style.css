@@ -1045,6 +1045,28 @@ h4 {
     }
 }
 
+
+a.lien {
+    font-size: 20px;
+}
+
+h2.mg-mg.text-center {
+    font-weight: bold;
+    color: black;
+}
+
+span.partenaires {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ul#partenaires {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: disclosure-open
+}
+
 @media (max-width: 767px) {
     h2 {
         font-size: 19px;
@@ -1083,6 +1105,7 @@ h4 {
     a.lien {
         font-size: 17px;
     }
+    
     ul#partenaires {
     display: grid;
     width: 100%;
@@ -1091,25 +1114,3 @@ h4 {
     text-align: initial;
     }
 }
-
-a.lien {
-    font-size: 20px;
-}
-
-h2.mg-mg.text-center {
-    font-weight: bold;
-    color: black;
-}
-
-span.partenaires {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-ul#partenaires {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    list-style-type: disclosure-open
-}
-
